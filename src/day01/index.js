@@ -40,7 +40,7 @@ const part2 = (rawInput) => {
   for (let i = 0; i < numbers.length; i++) {
     if (!numbers[i]) {
       arrays.push(array);
-      console.log(array);
+      // console.log(array);
       array = [];
     } else {
       array.push(numbers[i]);
